@@ -1,0 +1,737 @@
+/* body {
+    background-color: rgb(251, 251, 217);
+}
+
+h1 {
+    font-size: 40px;
+    color:#685e4a; 
+    margin-bottom: 20px;
+    margin-left: 18px;
+    letter-spacing: 1px;
+}
+img {
+    width: 340px;
+    height: 500px ;
+}
+header {
+    text-align: center;
+    background-color: #690a0a;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f9f1f1;
+}
+
+.about-me {
+    padding: 20px; 
+    border-radius: 10px;
+    background-color: rgb(250, 232, 232);
+    
+}
+
+.about-me h1 {
+    margin-bottom: 15px;
+    color: #690a0a;
+    
+    
+}
+.about-me p {
+    color: rgb(20, 20, 21);
+    font-size: small;
+    font-family: cursive;
+}
+
+.flex {
+    display:flex;
+    flex-direction: row;
+}
+footer {
+    background-color: #3d0808; 
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%; 
+    height: 30px;
+}
+.blog {
+    background-color: #f8f4f4;
+    color:black;
+    font-size: medium;
+    font-family: cursive;
+
+
+
+}
+
+.name {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f4f4; 
+    color: #342909;
+}
+
+.name h1 {
+    font-size: 70px; 
+    font-weight: bold;
+    margin: 0;
+    color:#74a26c
+}
+
+.name h2 {
+    font-size: 30px; 
+    font-weight: 300;
+    margin-top: 10px;
+}
+.blog {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f4f4;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.blog img {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.blog img:hover {
+    transform: scale(1.05); 
+}
+
+.blog h1, .blog h2 {
+    text-align: center;
+    color: #040404; 
+    margin-bottom: 20px; 
+    font-family: cursive;
+    letter-spacing: 1px; 
+    font-family: cursive;
+}
+
+.blog h1 {
+    font-size: 2em;
+    text-transform: uppercase; 
+}
+
+.blog h2 {
+    font-size: 1.5em;
+    font-weight: 400; 
+}
+
+ 
+.recipes {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+    line-height: 1.6;
+    font-size: small;
+}
+
+
+.recipes h1 {
+    text-align: center;
+    color: #370303;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+
+.recipes h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin: 20px 0 10px;
+}
+
+
+.recipes img {
+    width: 40%; 
+    max-width: 300px; 
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.recipes img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+    filter: brightness(1.1);
+}
+
+
+.recipes p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+.recipes p:first-of-type {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.recipes p:nth-of-type(2) {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.recipes p:last-of-type {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+
+.recipes p:last-of-type span {
+    display: inline-block;
+    margin-right: 15px;
+    color: #333;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.about {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: cursive;
+}
+
+h1, h2, h4 {
+    color: #1c0202;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+
+}
+
+h4 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #281403; }
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.contact-container {
+    h2 {
+        text-align: center;         
+        color: #350606;             
+        font-family: cursive;
+        font-size: 24px;            
+        margin-bottom: 20px;        
+        text-transform: uppercase;   
+        letter-spacing: 1px;        
+    }
+    
+    button {
+        padding: 5px 50px;         
+        background-color: #a2c3ed;  
+        color: white;               
+        border: none;                
+        border-radius: 5px;         
+        cursor: pointer;            
+        font-size: 16px;            
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    
+    button:hover {
+        background-color: #5c98d8;  
+        transform: scale(1.05);     
+    
+}
+} */
+
+body {
+    background-color: rgb(251, 251, 217);
+}
+
+h1 {
+    font-size: 40px;
+    color:#685e4a; 
+    margin-bottom: 20px;
+    margin-left: 18px;
+    letter-spacing: 1px;
+}
+img {
+    width: 340px;
+    height: 500px ;
+}
+header {
+    text-align: center;
+    background-color: #690a0a;
+    
+    
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f9f1f1;
+}
+
+.about-me {
+    padding: 20px; 
+    border-radius: 10px;
+    background-color: rgb(253, 242, 242);
+    
+}
+
+.about-me h1 {
+    margin-bottom: 15px;
+    color: #690a0a;
+    
+    
+}
+.about-me p {
+    color: rgb(20, 20, 21);
+    font-size: small;
+    font-family: cursive;
+}
+
+.flex {
+    display:flex;
+    flex-direction: row;
+}
+footer {
+    background-color: #3d0808; 
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%; 
+    height: 30px;
+    text-decoration: none;
+}
+
+.blog {
+    background-color: #f8f4f4;
+    color:black;
+    font-size: medium;
+    font-family: cursive;
+
+
+
+}
+
+.name {
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('https://watermark.lovepik.com/photo/50108/4102.jpg_wh1200.jpg'); 
+        color: #342909;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+.name h1 {
+    font-size: 70px; 
+    font-weight: bold;
+    margin: 0;
+    color:#f8f1f4
+}
+
+.name h2 {
+    font-size: 30px; 
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgb(240, 241, 236);
+}
+.name h3 {
+     font-size: 50px;
+     color: rgb(251, 251, 217);
+}
+.blog {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e7f9e2;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+   
+    
+}
+
+.blog img {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+   
+}
+
+.blog img:hover {
+    transform: scale(1.05);
+     
+}
+ 
+.recipes {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7f9e2;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+    line-height: 1.6;
+    font-size: small;
+}
+
+
+.recipes h1 {
+    text-align: center;
+    color: #370303;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+
+.recipes h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin: 20px 0 10px;
+}
+
+
+.recipes img {
+    width: 100%; 
+    max-width: 970px; 
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.recipes img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+.recipes p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: cursive;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.about {
+    background-color: #e7f9e2;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: cursive;
+}
+
+h1, h2, h4 {
+    color: #1c0202;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+
+}
+
+h4 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #281403; }
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.about img:hover {
+    transform: scale(1.05);}
+
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.contact-container {
+    h2 {
+        text-align: center;         
+        color: #350606;             
+        font-family: cursive;
+        font-size: 24px;            
+        margin-bottom: 20px;        
+        text-transform: uppercase;   
+        letter-spacing: 1px;        
+    }
+    
+    button {
+        padding: 5px 50px;         
+        background-color: #a2c3ed;  
+        color: white;               
+        border: none;                
+        border-radius: 5px;         
+        cursor: pointer;            
+        font-size: 16px;            
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    
+    button:hover {
+        background-color: #5c98d8;  
+        transform: scale(1.05);     
+    
+}
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #270306; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 5px; 
+   
+}
+
+.badam {
+    
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #270306; 
+        color: white; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 5px; 
+       
+    
+}
+.cake {
+    display: inline-block;
+        padding: 5px 10px;
+        background-color: #270306; 
+        color: white; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 5px; 
+       
+
+}
+.sushi {
+    display: inline-block;
+        padding: 5px 10px;
+        background-color: #270306; 
+        color: white; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 5px; 
+       
+
+}
+.panner {
+    display: inline-block;
+        padding: 5px 10px;
+        background-color: #270306; 
+        color: white; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 5px; 
+       
+
+}
+.ayushi {
+    display: flex;
+    direction: row;
+}
+.blueberry img {
+    width: 270px;
+    height: 290px;
+    margin-right: 55px;
+}
+.frini img {
+    width: 270px;
+    height: 290px;
+    margin-right: 55px;
+}
+.pecanpie img {
+    width: 270px;
+    height: 290px;
+
+}
+.info {
+    background-color:rgb(220, 220, 246);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    color: #3d0808;
+    margin-right: 10px;
+    font-size: medium  
+}
+
+
+.club {
+    background-color:rgb(220, 220, 246);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    color: #3d0808;
+    margin-right: 10px;
+
+}
+.mitali {
+    background-color:rgb(220, 220, 246);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    color: #3d0808;
+    margin-right: 10px;
+
+
+}
+.first {
+    display: flex;
+    flex-direction: row;
+    
+}
+.mansi {
+    display: inline-block;
+        padding: 3px 5px;
+        background-color: #a19be0; 
+        color: white; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 5px; 
+       
+
+}
+.form-group a {
+    text-decoration: none;
+    margin-right: 15px; }
+
+.form-group i {
+    font-size: 34px; 
+    color: #10064e; 
+    transition: color 0.3s ease; 
+    color: rgb(81, 92, 211);
+    margin-left: 10px;
+}
+.group {
+    font-size: larger;
+    margin-left: 50px;
+}
+
+.contact-container {
+    background-color: #e7f9e2;
+    border-radius: 10px;
+     
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color:  #690a0a;
+    padding: 5px;
+    margin-left:500px;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #02000a; }
+
+  
+
+
+
+
+
+
+
+
+    

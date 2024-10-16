@@ -1,0 +1,37 @@
+ body{
+   background-color: rgb(225, 177, 247);
+   margin-left: 100px;
+   
+}
+h1{
+    color: rgb(7, 0, 13);
+    text-decoration: underline;
+    text-align-last:center;
+    margin-right:150px;
+    background-color: rgb(204, 116, 248);
+}
+img{
+    margin-left: 650px;
+    border: solid;
+    }
+
+
+h2{
+    margin-left:700px;
+    text-decoration: dotted;
+}
+p{
+    text-align: center;
+}
+h3{
+    margin-left:700px;
+}
+
+.links{ 
+    margin-left:700px;
+} 
+
+#follow{
+ margin-right: 20px;
+}  
+
